@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore — Cultura</title>
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav>
+    <a href="index.html" class="nav-logo">Cultu<span>ra</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="explore.html" class="active">Explore</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==============================
+       PAGE HEADER
+  ============================== -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <div class="section-label">Browse cultures</div>
+        <h1 class="page-title">Explore the <em>world</em></h1>
+        <div class="count-badge">
+          <i class="fa-solid fa-earth-americas" style="color:#E05A2B;"></i>
+          <strong>12 cultures</strong> ready to explore
+        </div>
+      </div>
+      <p class="page-desc">
+        Click any country to open its full portal — live map,
+        food stories, recipes, and voices from the people who call it home.
+      </p>
+    </div>
+  </div>
+
+  <!-- ==============================
+       COUNTRIES GRID
+  ============================== -->
+  <section class="countries-section" id="countries">
+    <div class="countries-grid">
+
+      <!-- 1. Japan -->
+      <a href="country.html?c=japan" class="country-card">
+        <div class="card-img" style="background-color: #0d0d18;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #bc002d, #e85d04);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/jp.png" srcset="https://flagcdn.com/w320/jp.png 1x, https://flagcdn.com/w640/jp.png 2x" alt="Japan flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"In Japan, slurping noodles is a compliment to the chef — silence at the table means you didn't enjoy it."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Japan</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">East Asia</div>
+          <div class="card-tags">
+            <span class="tag">🍣 Sushi</span>
+            <span class="tag">🌸 Sakura</span>
+            <span class="tag">⛩️ Temples</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 5 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 24 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 2. Morocco -->
+      <a href="country.html?c=morocco" class="country-card">
+        <div class="card-img" style="background-color: #130900;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #c4522a, #d4a843);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/ma.png" srcset="https://flagcdn.com/w320/ma.png 1x, https://flagcdn.com/w640/ma.png 2x" alt="Morocco flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Moroccan mint tea is poured from a height to create foam — the higher the pour, the more respect shown to the guest."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Morocco</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">North Africa</div>
+          <div class="card-tags">
+            <span class="tag">🍲 Tagine</span>
+            <span class="tag">🕌 Medina</span>
+            <span class="tag">🌿 Mint Tea</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 8 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 31 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 3. Brazil -->
+      <a href="country.html?c=brazil" class="country-card">
+        <div class="card-img" style="background-color: #040e02;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #009c3b, #fedf00);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/br.png" srcset="https://flagcdn.com/w320/br.png 1x, https://flagcdn.com/w640/br.png 2x" alt="Brazil flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Feijoada, Brazil's national dish, was born from the leftovers that enslaved people received — now it's served in the finest restaurants."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Brazil</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">South America</div>
+          <div class="card-tags">
+            <span class="tag">🥘 Feijoada</span>
+            <span class="tag">🎉 Carnival</span>
+            <span class="tag">🌴 Amazon</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 6 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 18 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 4. Egypt -->
+      <a href="country.html?c=egypt" class="country-card">
+        <div class="card-img" style="background-color: #120900;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #d4a843, #7a3a0f);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/eg.png" srcset="https://flagcdn.com/w320/eg.png 1x, https://flagcdn.com/w640/eg.png 2x" alt="Egypt flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Koshari was born from Egypt's crossroads of cultures — Italian pasta, Indian lentils, and Arab spices all in one bowl."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Egypt</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">North Africa</div>
+          <div class="card-tags">
+            <span class="tag">🫓 Koshari</span>
+            <span class="tag">🔺 Pyramids</span>
+            <span class="tag">🌊 Nile</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 7 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 42 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 5. India -->
+      <a href="country.html?c=india" class="country-card">
+        <div class="card-img" style="background-color: #100800;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #ff9933, #138808);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/in.png" srcset="https://flagcdn.com/w320/in.png 1x, https://flagcdn.com/w640/in.png 2x" alt="India flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"India has over 30 distinct cuisines — what people eat in Kerala has almost nothing in common with what's cooked in Punjab."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">India</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">South Asia</div>
+          <div class="card-tags">
+            <span class="tag">🍛 Biryani</span>
+            <span class="tag">🪔 Diwali</span>
+            <span class="tag">🕌 Taj Mahal</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 10 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 38 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 6. Mexico -->
+      <a href="country.html?c=mexico" class="country-card">
+        <div class="card-img" style="background-color: #0a100a;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #006847, #ce1126);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/mx.png" srcset="https://flagcdn.com/w320/mx.png 1x, https://flagcdn.com/w640/mx.png 2x" alt="Mexico flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Mexican chocolate was originally a bitter drink mixed with chili — the sweet version Europeans know today came much later."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Mexico</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">North America</div>
+          <div class="card-tags">
+            <span class="tag">🌮 Tacos</span>
+            <span class="tag">💀 Día de Muertos</span>
+            <span class="tag">🎨 Art</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 9 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 27 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 7. Italy -->
+      <a href="country.html?c=italy" class="country-card">
+        <div class="card-img" style="background-color: #0a0a10;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #009246, #ce2b37);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/it.png" srcset="https://flagcdn.com/w320/it.png 1x, https://flagcdn.com/w640/it.png 2x" alt="Italy flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"In Italy, cappuccino after 11am is considered a social crime. Locals will silently judge you — but say nothing."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Italy</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">Southern Europe</div>
+          <div class="card-tags">
+            <span class="tag">🍝 Pasta</span>
+            <span class="tag">🍕 Pizza</span>
+            <span class="tag">🏛️ Roma</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 11 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 29 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 8. South Korea -->
+      <a href="country.html?c=korea" class="country-card">
+        <div class="card-img" style="background-color: #0d0a14;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #003478, #cd2e3a);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/kr.png" srcset="https://flagcdn.com/w320/kr.png 1x, https://flagcdn.com/w640/kr.png 2x" alt="South Korea flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Koreans have a separate word for the pleasure of eating while watching someone else eat — it's called 'mukbang' culture."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">South Korea</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">East Asia</div>
+          <div class="card-tags">
+            <span class="tag">🥢 Kimchi</span>
+            <span class="tag">🎵 K-Pop</span>
+            <span class="tag">🌸 Hanbok</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 7 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 22 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 9. Nigeria -->
+      <a href="country.html?c=nigeria" class="country-card">
+        <div class="card-img" style="background-color: #040d04;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #008751, #ffffff);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/ng.png" srcset="https://flagcdn.com/w320/ng.png 1x, https://flagcdn.com/w640/ng.png 2x" alt="Nigeria flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Nigeria has over 500 languages. In Lagos, you might hear three different ones in a single taxi ride."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Nigeria</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">West Africa</div>
+          <div class="card-tags">
+            <span class="tag">🍲 Jollof Rice</span>
+            <span class="tag">🎶 Afrobeat</span>
+            <span class="tag">🎭 Festivals</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 6 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 19 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 10. Turkey -->
+      <a href="country.html?c=turkey" class="country-card">
+        <div class="card-img" style="background-color: #0f0404;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #e30a17, #ffffff);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/tr.png" srcset="https://flagcdn.com/w320/tr.png 1x, https://flagcdn.com/w640/tr.png 2x" alt="Turkey flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Turkish coffee is brewed unfiltered — the grounds settle at the bottom and are used to read fortunes after drinking."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Turkey</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">Middle East / Europe</div>
+          <div class="card-tags">
+            <span class="tag">☕ Coffee</span>
+            <span class="tag">🕌 Istanbul</span>
+            <span class="tag">🧖 Hammam</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 8 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 21 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 11. France -->
+      <a href="country.html?c=france" class="country-card">
+        <div class="card-img" style="background-color: #04040f;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #002395, #ed2939);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/fr.png" srcset="https://flagcdn.com/w320/fr.png 1x, https://flagcdn.com/w640/fr.png 2x" alt="France flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"The French take a two-hour lunch break seriously — it's protected by culture. Eating at your desk is still considered odd."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">France</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">Western Europe</div>
+          <div class="card-tags">
+            <span class="tag">🥐 Croissant</span>
+            <span class="tag">🗼 Paris</span>
+            <span class="tag">🍷 Wine</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 9 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 25 stories</div>
+          </div>
+        </div>
+      </a>
+
+      <!-- 12. Peru -->
+      <a href="country.html?c=peru" class="country-card">
+        <div class="card-img" style="background-color: #0f0404;">
+          <div class="card-img-bg" style="background: linear-gradient(135deg, #d91023, #ffffff);"></div>
+          <img class="card-flag" src="https://flagcdn.com/w320/pe.png" srcset="https://flagcdn.com/w320/pe.png 1x, https://flagcdn.com/w640/pe.png 2x" alt="Peru flag" loading="lazy">
+          <div class="card-hover-info">
+            <p class="hover-fact">"Peru is considered one of the world's top food destinations — Lima has more restaurants per capita than almost any city on Earth."</p>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-top-row">
+            <div class="card-name">Peru</div>
+            <div class="card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+          <div class="card-region">South America</div>
+          <div class="card-tags">
+            <span class="tag">🍋 Ceviche</span>
+            <span class="tag">🏔️ Machu Picchu</span>
+            <span class="tag">🌽 Quinoa</span>
+          </div>
+          <div class="card-stats">
+            <div class="card-stat"><i class="fa-solid fa-utensils"></i> 6 recipes</div>
+            <div class="card-stat"><i class="fa-solid fa-comments"></i> 15 stories</div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       BOTTOM CTA
+  ============================== -->
+  <div class="bottom-cta" id="cta">
+    <div>
+      <h2>Have a story to share?</h2>
+      <p>Tell the world something about your culture that no one else knows.</p>
+    </div>
+    <a href="#countries" class="btn-primary">
+      Choose a country to share your story
+      <i class="fa-solid fa-arrow-right"></i>
+    </a>
+  </div>
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer>
+    <a href="index.html" class="footer-logo">Cultu<span>ra</span></a>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="explore.html">Explore</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <span>Codex Egypt 2026 · World Without Borders</span>
+  </footer>
+
+</body>
+</html>

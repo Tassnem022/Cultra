@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url("./playfair-display_5.2.7_latin-wght-normal.woff2") format("woff2");
+    font-weight: 700 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("./dm-sans_5.2.7_latin-wght-normal.woff2") format("woff2");
+    font-weight: 300 500;
+    font-style: normal;
+    font-display: swap;
+}
